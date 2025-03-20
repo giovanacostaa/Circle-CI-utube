@@ -8,6 +8,6 @@
 
 
 export default function sellProduct(product, quantity) {
-    product.stock -= 1;
+    product.stock -= quantity;
     return product
 }
