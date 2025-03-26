@@ -1,5 +1,5 @@
 import request from "supertest"; // Biblioteca usada para testar rotas HTTP da API
-import app from "./app.js"; // Importa o app Express (a API que criamos)
+import app from "../app"; // Importa o app Express (a API que criamos)
 
 let products; // Lista de produtos que será usada nos testes
 
